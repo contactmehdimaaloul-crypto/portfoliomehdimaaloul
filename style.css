@@ -365,21 +365,18 @@ footer p {
   text-align: center;
   color: #ffb400;
 }
-/* Make the portfolio grid responsive */
 .portfolio .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* adjust 300px if needed */
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); /* wider videos */
   gap: 20px;
 }
 
-/* Wrapper to keep aspect ratio */
 .video-wrapper {
   position: relative;
   width: 100%;
   padding-top: 56.25%; /* 16:9 ratio */
 }
 
-/* Make iframe fill the wrapper */
 .video-wrapper iframe {
   position: absolute;
   top: 0;
@@ -388,12 +385,10 @@ footer p {
   height: 100%;
 }
 
-/* Optional: video title below video */
 .video-title {
   text-align: center;
   margin-top: 5px;
-  font-size: 0.9rem;
-  color: #333;
+  font-weight: 500;
 }
 .grid.carousel {
   display: flex !important;
@@ -605,3 +600,4 @@ footer p {
   color: #888;
 
 }
+
