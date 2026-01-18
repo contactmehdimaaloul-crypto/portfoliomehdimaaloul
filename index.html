@@ -149,17 +149,35 @@
     </div>
   </section>
 
-  <!-- FILM SECTION -->
-  <section class="film-section" id="film">
-    <p class="film-caption">SHORT Movie · 2025</p>
-    <div class="film-container">
-      <div class="film-poster"><img src="images/trailer.png" alt="Short film poster"></div>
-      <div class="film-trailer"><video controls><source src="Video/trailer.mp4" type="video/mp4"></video></div>
-      <p class="film-info">Short movie Poster</p>
-      <p class="film-info" style=" margin-right: 0px;">Short movie Trailer</p>
+<!-- FILM SECTION -->
+<section class="film-section" id="film">
+  <p class="film-caption">SHORT Movie · 2025</p>
+  <div class="film-container">
+    
+    <!-- Poster -->
+    <div class="film-poster">
+      <img src="images/trailer.png" alt="Short film poster">
+      <p class="film-info">Short Movie Poster</p>
     </div>
-  </section>
-
+    
+    <!-- Trailer -->
+    <div class="film-trailer">
+      <p class="film-info">Short Movie Trailer</p>
+      <div class="video-grid">
+        <div style="padding:56.25% 0 0 0;position:relative;">
+          <iframe 
+            src="https://player.vimeo.com/video/1155646604?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" 
+            frameborder="0" 
+            allow="autoplay; fullscreen; picture-in-picture" 
+            style="position:absolute;top:0;left:0;width:100%;height:100%;" 
+            title="Trailer">
+          </iframe>
+        </div>
+      </div>
+    </div>
+    
+  </div>
+</section>
   <!-- CONTACT SECTION -->
   <section class="contact" id="contact">
     <h2>Contact Me</h2>
@@ -227,3 +245,4 @@ form.addEventListener("submit", async (e) => {
 </body>
 
 </html>
+
